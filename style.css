@@ -1,0 +1,72 @@
+p {
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+.section {
+    margin: 1rem;
+}
+
+span {
+    background-color: rgb(16, 168, 16);
+    border: 1px solid black;
+    border-radius: 50%;
+    color: white;
+    margin-right: .3rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid rgb(102, 99, 99);
+    padding: .3rem;
+}
+
+th {
+    color: white;
+    background-color: rgb(90, 138, 201);
+    border-bottom: 2px solid rgb(51, 51, 146);
+}
+
+th:nth-child(3n+1) {
+    border-radius: 10px;
+}
+
+tr {
+    background-color: rgb(184, 227, 255);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(124, 178, 214);
+}
+
+form {
+    width: 40%;
+}
+
+fieldset {
+    padding-top: 1rem;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 0 0 50%;
+}
+
+input[type=submit] {
+    float: right;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    margin: .3rem 1rem;
+}
